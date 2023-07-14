@@ -4,9 +4,9 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
      var username = document.getElementById('username').value;
      var password = document.getElementById('password').value;
    
-     if (username === 'gine' && password === '123456') {
+     if ((username === 'just_gine17' || username === 'Just_gine17') && password === '38183133') {
        window.location.href = 'welcome.html';
      } else {
-       document.getElementById('error-message').textContent = 'apprezzo il tentativo.';
+       document.getElementById('error-message').textContent = 'apprezzo il tentativo, capirai.';
      }
    });
