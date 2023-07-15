@@ -6,7 +6,6 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-        
     <p class="center-text">"ma sto foglio bianco??"</p>
   <div class="container">
     <h1>Login</h1>
@@ -18,10 +17,17 @@
     <p id="error-message" class="error-message"></p>
   </div>
 
+  <button class="custom-button" onclick="redirectToGiorni()">Days</button>
+
   <div class="banner">
      <img src="immagine.png" alt="Banner Immagine">
    </div>
 
   <script src="script.js"></script>
+  <script>
+    function redirectToGiorni() {
+      window.location.href = 'giorni.html';
+    }
+  </script>
 </body>
 </html>
