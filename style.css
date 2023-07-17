@@ -11,7 +11,9 @@ body {
 
 .container {
   max-width: 400px;
-  margin: 80px auto;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
   padding: 20px;
   background-color: #ffffff;
   border-radius: 10px;
@@ -61,6 +63,12 @@ button[type="submit"]:hover {
   text-align: center;
   font-size: 50px;
   margin-top: 50px;
+  color: #9b9b9b;
+}
+
+.freccia {
+  text-align: center;
+  font-size: 40px;
   color: #9b9b9b;
 }
 
