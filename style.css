@@ -1,32 +1,32 @@
 @media (max-width: 767px) {
   .container {
-    min-width: 80%;
+    width: 350px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   #username,
   #password {
     padding: 8px;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   button[type="submit"] {
     padding: 8px;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .error-message {
     font-size: 14px;
   }
 
-  .center-text {
-    font-size: 30px;
+  body .center-text {
+    font-size: 25px;
     margin-top: 30px;
   }
 
