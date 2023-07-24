@@ -75,6 +75,15 @@ h3 {
   text-decoration: none;
   color: #0ea300;
   text-align: center;
+  font-size: 29px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.day-titlevecchio {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
   font-size: 24px;
   margin-top: 0;
   margin-bottom: 10px;
@@ -90,9 +99,9 @@ h3 {
 
 .back-button {
   display: block;
-  width: 150px;
+  width: 200px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px;
   background-color: #ff389c;
   color: #ffffff;
   text-decoration: none;
@@ -133,5 +142,5 @@ h3 {
 }
 
 .read-more-button:hover {
-  background-color: rgb(221, 221, 221);
+  background-color: rgb(182, 182, 182);
 }
