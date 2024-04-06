@@ -22,7 +22,7 @@ h3 {
 
 h1 {
   margin-top: 30px;
-  color: #ff389c;
+  color: #a7a7a7;
   font-size: 50px;
   font-family: Apple Chancery, cursive;
   text-decoration: underline;
@@ -103,31 +103,19 @@ h3 {
   width: 200px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #ff389c;
+  background-color: #818181;
   color: #ffffff;
   text-decoration: none;
   border-radius: 30px;
   transition: background-color 0.3s ease;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .back-button:hover {
-  background-color: #ff64a7;
+  background-color: #505050;
 }
 
-.banner {
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 300px;
-  overflow: hidden;
-}
-
-.banner img {
-  max-width: 200%;
-  height: auto;
-}
 
 .read-more-button {
   margin-top: 10px;

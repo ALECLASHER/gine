@@ -8,7 +8,7 @@
 
 
   h1 {
-    font-size: 30px;
+    font-size: 50px;
   }
 
   #username,
@@ -27,7 +27,7 @@
   }
 
   body .center-text {
-    font-size: 25px;
+    font-size: 70px;
     margin-top: 30px;
   }
 
@@ -65,48 +65,15 @@ body {
 
 h1 {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   color: #333333;
 }
 
-#username,
-#password {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  border: 1px solid #cccccc;
-}
-
-button[type="submit"] {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin-top: 1px;
-  border: none;
-  border-radius: 5px;
-  background-color: #ff389c;
-  color: #ffffff;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.1s ease;
-}
-
-button[type="submit"]:hover {
-  background-color: #ff4f9d;
-}
-
-.error-message {
-  color: #ff0000;
-  margin-top: 10px;
-  text-align: center;
-}
-
 .center-text {
-  opacity: 0.9;
+  opacity: 1;
   text-align: center;
-  font-size: 50px;
-  margin-top: 70px;
+  font-size: 100px;
+  margin-top: 200px;
   color: #9b9b9b;
 }
 
@@ -116,28 +83,17 @@ button[type="submit"]:hover {
   color: #9b9b9b;
 }
 
-.banner {
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 300px;
-  overflow: hidden;
-}
 
-.banner img {
-  max-width: 200%;
-  height: auto;
-}
+
 
 .custom-button {
   display: block;
-  width: 10%;
+  width: 4%;
   padding: 10px;
   margin: 10px auto;
   border: none;
   border-radius: 20px;
-  background-color: #ff389c;
+  background-color: #929292;
   color: #ffffff;
   font-weight: bold;
   cursor: pointer;
@@ -145,5 +101,5 @@ button[type="submit"]:hover {
 }
 
 .custom-button:hover {
-  background-color: #ff0080;
+  background-color: #3f3f3f;
 }
